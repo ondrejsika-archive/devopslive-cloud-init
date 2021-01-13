@@ -5,6 +5,5 @@ module "script" {
 #!/bin/bash
 apt-get update
 apt-get install -y nginx
-echo "Hello from Nginx" >> /var/www/html/index.html
 EOF
 }
