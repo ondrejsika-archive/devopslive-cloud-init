@@ -15,6 +15,8 @@ module "simple" {
   user_data = <<EOF
 #cloud-config
 
+ssh_pwauth: yes
+password: asdfasdf
 package_upgrade: true
 package_update: true
 packages:
